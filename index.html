@@ -1,58 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=more_vert"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header class="header">
+      <div class="navbar-contaner">
+        <div class="contaner">
+          <h2 class="logo">DOUSTI</h2>
+          <nav class="navbar">
+            <div class="nav-links">
+              <a href="">About</a>
+              <a href="">Skills</a>
+              <a href="">Projects</a>
+              <a href="">Contact</a>
+            </div>
+            <div class="nav-settings">
+              <button class="settings-btn">
+                <i class="material-symbols-outlined">more_vert</i>
+              </button>
 
-  <!-- Header / Navbar -->
-  <header class="header">
-    <nav class="nav">
-      <div class="logo">Doosti.nsm</div>
+              <div class="settings-menu">
+                <button>Theme</button>
+                <button>Language</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-      <!-- Hamburger Button -->
-      <button class="menu-toggle" id="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+    <!-- Sections -->
+    <section class="hero" id="home">
+      <h1>Hello, I am Morteza</h1>
+      <p>Junior Front-End Developer</p>
+    </section>
 
-      <!-- Navigation Links -->
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a junior front-end developer learning modern web technologies.<br />
+        Preparing my portfolio for university and job applications.
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
       </ul>
+    </section>
 
-      <!-- Dark/Light Mode -->
-      <button id="theme-toggle"><i class="fas fa-moon"></i></button>
-    </nav>
-  </header>
-
-  <!-- Sections -->
-  <section class="hero" id="home">
-    <h1>Hello, I am Morteza</h1>
-    <p>Junior Front-End Developer</p>
-  </section>
-
-  <section class="about" id="about">
-    <h2>About Me</h2>
-    <p>I am a junior front-end developer learning modern web technologies.<br>
-    Preparing my portfolio for university and job applications.</p>
-  </section>
-
-  <section class="skills" id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>JavaScript</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
-
-  <script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
