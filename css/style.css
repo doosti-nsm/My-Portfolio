@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
   font-family: Inter, sans-serif;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -20,6 +24,8 @@
 .navbar-contaner {
   background-color: rgba(30, 30, 30, 0.6);
   padding: 20px 30px;
+  position: fixed;
+  width: 100%;
 }
 
 .contaner {
@@ -65,4 +71,42 @@
 
 .settings-menu {
   display: none;
+}
+
+/*===== section about =====*/
+
+.about{
+    scroll-margin-top: 110px;
+}
+
+.about-contaner {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+.about-title {
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0px 0px 52px 21px rgba(0, 0, 0, 0.3);
+
+}
+
+.about-pic {
+  margin: 10px auto;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 52px 21px rgba(0, 0, 0, 0.3);
+}
+.about p {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 18px;
+  box-shadow: 0px 0px 52px 21px rgba(0, 0, 0, 0.3);
 }
